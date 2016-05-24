@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>menu</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <style type="text/css">
+        *{/*通配符意思是所有的都具有这个性质*/
+           margin: 0px;
+           padding: 0px;
+           border: 0px;
+        }
+        div ul li/*一横排的属性*/
+        {
+          display: block;
+          float: left;
+          list-style: none;/*列表属性*/
+          border-left: 1px solid white;
+          width: 120px;/*每个button宽120px*/
+        }
+        div ul li:hover div /*在鼠标移到li上的时候它下面的ul会显示*/
+        {
+          display: block;
+        }
+        div ul li a/* 横向的每个button*/
+        {
+           display: block;
+           width: 120px;
+           height: 50px;
+           background-color: #9370DB;
+        }
+        div ul li a:hover/* 横向的每个button的隐藏颜色*/
+        {
+           background-color: #00CED1;
+        }
+        .next/*竖栏刚开始不会被显示*/
+        {
+        	display: none;
+        }	
+  	    .next ul li /*列表每一行*/
+  	    {	
+          display: block;
+  	    	border-top: 1px solid white;
+  	    }
+  	    .next ul li a/*每一个button的样子*/
+  	    {
+  	    	background-color:#DAA520;
+  	    	display: block;
+  	    }
+        .next ul li a:hover
+        {
+           background-color:  #00CED1;
+        }
+    </style>
+</head>
+<body>
+     <div>
+       <ul>
+         <li>
+           <a href="#"></a>
+           <div class="next">
+             <ul>
+               <li><a href="#"></a></li>
+               <li><a href="#"></a></li>
+               <li><a href="#"></a></li>
+             </ul>
+           </div>
+         </li>
+         <li>
+           <a href="#"></a>
+           <div class="next">
+             <ul>
+               <li><a href="#"></a></li>
+               <li><a href="#"></a></li>
+               <li><a href="#"></a></li>
+             </ul>
+           </div>
+         </li>
+         <li>
+           <a href="#"></a>
+           <div class="next">
+             <ul>
+               <li><a href="#"></a></li>
+               <li><a href="#"></a></li>
+               <li><a href="#"></a></li>
+             </ul>
+           </div>
+         </li>
+         <li>
+           <a href="#"></a>
+           <div class="next">
+             <ul>
+               <li><a href="#"></a></li>
+               <li><a href="#"></a></li>
+               <li><a href="#"></a></li>
+             </ul>
+           </div>
+         </li>
+       </ul>
+     </div>
+</body>
+</body>
+</html>
